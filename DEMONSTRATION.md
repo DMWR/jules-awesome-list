@@ -49,6 +49,7 @@ Finally, to ensure long-term code quality and consistency, I guided Jules to imp
 We created a `.pre-commit-config.yaml` file and configured it to use Prettier to automatically format all markdown files. This hook will run before each commit, ensuring that all markdown contributions adhere to a consistent style guide.
 
 This final step completes our demonstration, showcasing a comprehensive, AI-assisted workflow that covers:
--   **Ideation:** Adding new, valuable prompts to the list.
--   **Implementation:** Building practical tools based on those prompts.
--   **Automation:** Enforcing code quality and consistency automatically.
+
+- **Ideation:** Adding new, valuable prompts to the list.
+- **Implementation:** Building practical tools based on those prompts.
+- **Automation:** Enforcing code quality and consistency automatically.

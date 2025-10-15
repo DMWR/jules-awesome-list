@@ -12,6 +12,18 @@
 
 ---
 
+## About This Repository
+
+This repository is more than just a list of prompts; it is a live demonstration of AI-assisted development. Guided by a human developer, Jules (an AI coding agent) has implemented several workflow automations directly within this repo, including:
+
+- A **GitHub Action** to lint markdown files.
+- A **release script** to automate versioning and changelog generation.
+- A **pre-commit hook** to enforce consistent code style.
+
+For a detailed account of how this was achieved, please see the [**Demonstration of AI-Assisted Contribution**](DEMONSTRATION.md).
+
+---
+
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
