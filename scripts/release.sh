@@ -17,26 +17,11 @@ fi
 
 echo "Creating release for version $VERSION..."
 
-# Get the latest tag to generate a changelog from that point
-LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
-
-# Generate a changelog
-echo "# Changelog" > CHANGELOG.md
-echo "" >> CHANGELOG.md
-echo "## Version $VERSION" >> CHANGELOG.md
-
-if [ -z "$LATEST_TAG" ]; then
-  # If no tags exist, log all history
-  git log --pretty=format:"- %s" >> CHANGELOG.md
-else
-  # Log history since the latest tag
-  git log "${LATEST_TAG}..HEAD" --pretty=format:"- %s" >> CHANGELOG.md
-fi
+# Generate a changelog with git-cliff
+git-cliff --tag "$VERSION" --output CHANGELOG.md
 
 # Create the git tag
 git tag -a "$VERSION" -m "Release $VERSION"
-
-echo "" >> CHANGELOG.md
 
 echo ""
 echo "Release $VERSION created successfully."

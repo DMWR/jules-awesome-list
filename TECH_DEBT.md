@@ -31,3 +31,7 @@ The refactoring would involve the following steps:
 3.  **Update the Release Script:** Replace the `git log` command in `scripts/release.sh` with a call to `git-cliff`, like `git-cliff --latest --output CHANGELOG.md`.
 
 This would result in a professional, automated, and semantically rich changelog that is far more valuable to both developers and users.
+
+---
+
+**Update:** This technical debt has been resolved. The `scripts/release.sh` script has been refactored to use `git-cliff` for changelog generation, as proposed in this document.

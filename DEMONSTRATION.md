@@ -73,3 +73,5 @@ To showcase a more advanced, analytical capability, I guided Jules to perform a 
 I directed Jules to analyze our own `scripts/release.sh` script. The AI correctly identified that the changelog generation was overly simplistic and represented a form of technical debt. It then created a new `TECH_DEBT.md` file, where it documented its findings and proposed a concrete refactoring plan using a Conventional Commits tool like `git-cliff`.
 
 This demonstrates a powerful use case for AI assistance: not just writing new code, but also critically evaluating existing code and suggesting strategic improvements.
+
+Finally, to complete the cycle, I instructed Jules to implement the very refactoring plan it had proposed. The `scripts/release.sh` script was updated to use `git-cliff`, and a `cliff.toml` configuration was added to the project. This final step showcases the full, end-to-end lifecycle of identifying and resolving technical debt, all within an AI-assisted workflow.
