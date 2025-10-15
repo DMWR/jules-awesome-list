@@ -21,6 +21,7 @@
 - [Testing](#testing)
 - [Package Management](#package-management)
 - [AI-Native Tasks](#ai-native-tasks)
+- [Workflow Automation](#workflow-automation)
 - [Context](#context)
 - [Fun \& Experimental](#fun--experimental)
 - [Start from Scratch](#start-from-scratch)
@@ -160,6 +161,21 @@
 - `// Refactor this Python function to be more amenable to parallel processing (e.g., using multiprocessing or threading)...`
   <sub>For optimizing performance in computationally intensive Python applications.</sub>
 
+
+
+## Workflow Automation
+
+- `// Create a GitHub Action to automatically lint and test my code on every push.`
+  <sub>For projects hosted on GitHub that want to enforce code quality standards.</sub>
+
+- `// Write a script to automate our release process: bump version, create a git tag, and generate a changelog.`
+  <sub>Useful for libraries or applications with a structured release cycle.</sub>
+
+- `// Set up a pre-commit hook to format my code with Prettier before each commit.`
+  <sub>For teams that want to maintain a consistent code style automatically.</sub>
+
+- `// Write a bash script to deploy my application to a staging server.`
+  <sub>For projects with manual or complex deployment steps that could be simplified.</sub>
 
 
 ## Context
