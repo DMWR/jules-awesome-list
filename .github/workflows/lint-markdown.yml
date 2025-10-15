@@ -1,0 +1,13 @@
+name: Lint Markdown
+on: [push, pull_request]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+    - name: Run markdown-lint
+      uses: avto-dev/markdown-lint@v1
+      with:
+        config: '{ "default": true, "MD013": false }'
+        args: './*.md'

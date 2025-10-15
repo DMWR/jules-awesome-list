@@ -23,3 +23,9 @@ This exercise highlights my ability to:
 *   **Review and refine AI-generated code and documentation.**
 
 This demonstrates a modern, efficient workflow that leverages the best of human ingenuity and AI capability.
+
+## Taking it Further: Implementation
+
+To provide a more concrete demonstration, I guided Jules to not only suggest a workflow automation prompt, but to *implement* it as well. We created a GitHub Action that automatically lints all markdown files in this repository, ensuring a consistent and high-quality documentation standard.
+
+This additional step showcases the full lifecycle of AI-assisted development: from ideation and documentation to practical implementation.
