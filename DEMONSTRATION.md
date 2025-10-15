@@ -29,3 +29,14 @@ This demonstrates a modern, efficient workflow that leverages the best of human 
 To provide a more concrete demonstration, I guided Jules to not only suggest a workflow automation prompt, but to *implement* it as well. We created a GitHub Action that automatically lints all markdown files in this repository, ensuring a consistent and high-quality documentation standard.
 
 This additional step showcases the full lifecycle of AI-assisted development: from ideation and documentation to practical implementation.
+
+### Automating the Release Process
+
+To further build on this demonstration, I guided Jules to implement another prompt: `// Write a script to automate our release process...`.
+
+We created `scripts/release.sh`, a simple yet powerful bash script that:
+1.  Accepts a version number (e.g., `v1.2.0`).
+2.  Creates an annotated Git tag for the release.
+3.  Generates a `CHANGELOG.md` file from the Git history.
+
+This script is another concrete example of how AI assistance can be used to build practical tools that streamline the development workflow.
