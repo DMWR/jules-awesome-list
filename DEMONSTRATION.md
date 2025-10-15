@@ -53,3 +53,15 @@ This final step completes our demonstration, showcasing a comprehensive, AI-assi
 - **Ideation:** Adding new, valuable prompts to the list.
 - **Implementation:** Building practical tools based on those prompts.
 - **Automation:** Enforcing code quality and consistency automatically.
+
+### Demonstrating Test Fixtures
+
+To further showcase the capabilities of AI-assisted development, I guided Jules to implement a prompt from the "Testing" section: `// Write a Pytest fixture to mock this external API call...`.
+
+We established a complete Pytest environment by:
+
+1.  Creating a `requirements.txt` file with `pytest` and `pytest-mock`.
+2.  Implementing a mock fixture in `tests/conftest.py` that simulates an API response.
+3.  Writing a test case in `tests/test_api.py` that uses the fixture to verify application logic without making real network calls.
+
+This addition serves as a practical, hands-on example of how to set up and use a modern testing workflow, a crucial aspect of professional software development.
