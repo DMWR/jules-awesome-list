@@ -65,3 +65,11 @@ We established a complete Pytest environment by:
 3.  Writing a test case in `tests/test_api.py` that uses the fixture to verify application logic without making real network calls.
 
 This addition serves as a practical, hands-on example of how to set up and use a modern testing workflow, a crucial aspect of professional software development.
+
+### Analyzing Technical Debt
+
+To showcase a more advanced, analytical capability, I guided Jules to perform a task from the "AI-Native Tasks" section: `// Identify tech debt in this file`.
+
+I directed Jules to analyze our own `scripts/release.sh` script. The AI correctly identified that the changelog generation was overly simplistic and represented a form of technical debt. It then created a new `TECH_DEBT.md` file, where it documented its findings and proposed a concrete refactoring plan using a Conventional Commits tool like `git-cliff`.
+
+This demonstrates a powerful use case for AI assistance: not just writing new code, but also critically evaluating existing code and suggesting strategic improvements.
