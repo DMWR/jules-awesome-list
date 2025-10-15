@@ -75,3 +75,9 @@ I directed Jules to analyze our own `scripts/release.sh` script. The AI correctl
 This demonstrates a powerful use case for AI assistance: not just writing new code, but also critically evaluating existing code and suggesting strategic improvements.
 
 Finally, to complete the cycle, I instructed Jules to implement the very refactoring plan it had proposed. The `scripts/release.sh` script was updated to use `git-cliff`, and a `cliff.toml` configuration was added to the project. This final step showcases the full, end-to-end lifecycle of identifying and resolving technical debt, all within an AI-assisted workflow.
+
+### A Final Touch: Adding a Bit of Fun
+
+To cap off the demonstration, I guided Jules to implement a prompt from the "Fun & Experimental" section: `// Inject a developer joke when {a specific} build finishes.`
+
+The `scripts/release.sh` script was modified one last time. Now, after a successful release, it calls a public API to fetch a random developer joke and displays it in the console. This small feature demonstrates the ability to integrate with third-party APIs and add a touch of personality to developer tooling, showcasing a different, more creative side of AI-assisted development.
