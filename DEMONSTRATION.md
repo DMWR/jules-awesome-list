@@ -81,3 +81,16 @@ Finally, to complete the cycle, I instructed Jules to implement the very refacto
 To cap off the demonstration, I guided Jules to implement a prompt from the "Fun & Experimental" section: `// Inject a developer joke when {a specific} build finishes.`
 
 The `scripts/release.sh` script was modified one last time. Now, after a successful release, it calls a public API to fetch a random developer joke and displays it in the console. This small feature demonstrates the ability to integrate with third-party APIs and add a touch of personality to developer tooling, showcasing a different, more creative side of AI-assisted development.
+
+### Final Refactoring: Migrating to Poetry
+
+As a final step to bring the project in line with modern Python best practices, I guided Jules to implement a prompt from the "Start from Scratch" section: `// Bootstrap a Python project with Poetry and Pytest`.
+
+Jules performed the following actions:
+
+1.  Created a `pyproject.toml` file to define the project structure and dependencies.
+2.  Added all existing dependencies (`pytest`, `requests`, etc.) to the `pyproject.toml` file.
+3.  Generated a `poetry.lock` file to ensure deterministic builds.
+4.  Removed the now-redundant `requirements.txt` file.
+
+This final refactoring demonstrates the ability to handle sophisticated project setup and dependency management, leaving the repository in a professional state that is ready for further development.
