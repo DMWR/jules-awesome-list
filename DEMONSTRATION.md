@@ -94,3 +94,11 @@ Jules performed the following actions:
 4.  Removed the now-redundant `requirements.txt` file.
 
 This final refactoring demonstrates the ability to handle sophisticated project setup and dependency management, leaving the repository in a professional state that is ready for further development.
+
+## The Capstone: Releasing v1.0.0
+
+As the final act of this demonstration, I guided Jules to perform one last task: **use the tools we built to create an official `v1.0.0` release.**
+
+By running the `scripts/release.sh` script we had created and refined, the AI automatically generated a professional `CHANGELOG.md` from our commit history and tagged the `v1.0.0` release in Git.
+
+This final step perfectly encapsulates the power of AI-assisted development. We didn't just build tools; we used them to bring the project to a close, demonstrating a complete, end-to-end workflow from ideation to a final, automated release.
